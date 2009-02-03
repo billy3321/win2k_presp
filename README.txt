@@ -1,40 +1,43 @@
-(��) Windows 2000 Pre-SP5 �ĤG���o������
-    [²��]
-    �\�h�H�����D�A�{�b�w�� Windows2000/XP�A�������N�t�έץ��ɤU����A�A�����u�w�ˡA�H�K���F�e���������f�r�A���O�ץ��ɳo��h�A�@�@�U���ӮɶO�O�A�ҥH�o�̾�z�X�F Windows 2000 SP4 �o���ܤ����Ҧ��ץ��ɡA�z�i�H �U����M Windows 2000 ���w���ɿN�b�P�@�����и̡A�H�K�w�ˡC
+# -*- coding: utf-8 -*-
 
-    [�w�˻���]
+(偽) Windows 2000 Pre-SP5 第二版發布說明
+    [簡介]
+    許多人都知道，現在安裝 Windows2000/XP，必須先將系統修正檔下載後，再做離線安裝，以免中了疾風之類的病毒，但是修正檔這麼多，一一下載耗時費力，所以這裡整理出了 Windows 2000 SP4 發布至今的所有修正檔，您可以 下載後和 Windows 2000 的安裝檔燒在同一片光碟裡，以便安裝。
 
-    �t�λݨD�G
+    [安裝說明]
+
+    系統需求：
     1. Windows 2000 Service Pack 4
     2. Internet Explorer 6.0 SP1
     3. Windows Media Player 9.0
     4. DirectX 9.0c
 
-    �w�˻����G
-    1. ���ץ��ɥ]�t Windows2000 SP4 �H��ܤ��骺�ץ��ɡA�å]�t�H�W 2,3,4 ���n�骺�Ҧ��ץ��ɡA�ҥH�w�˫e�Х��T�{�A�w�g�w�ˤF�H�W�T�ӳn��̷s���A�ñN Windows2000 ��s�� SP4�A��i�w�˦���s�ɡC
-    2. ���۰ʦw���ɵL�k�Ϧw�ˡA�Цb�Ҽ{��A�M�w�O�_�w�ˡC
-    3. �w�˫e�Х��N�Ҧ��w�}�Ҫ��{�����������A�H�K��s���ѡC
-    4. ���۰ʦw���ɨõL�ﶵ�i�ѿ�ܡA�Ѷ}��|�����}�l�w�ˡC
-    6. �w�˧�����ä��|�۰ʭ��s�}���A�Цۦ歫�s�}���A��i�M�Χ�s�ɡC
+    安裝說明：
+    1. 本修正檔包含 Windows2000 SP4 以後至今日的修正檔，並包含以上 2,3,4 之軟體的所有修正檔，所以安裝前請先確認你已經安裝了以上三個軟體最新版，並將 Windows2000 更新為 SP4，方可安裝此更新檔。
+    2. 本自動安裝檔無法反安裝，請在考慮後再決定是否安裝。
+    3. 安裝前請先將所有已開啟的程式完全關閉，以免更新失敗。
+    4. 本自動安裝檔並無選項可供選擇，解開後會直接開始安裝。
+    6. 安裝完畢後並不會自動重新開機，請自行重新開機，方可套用更新檔。
 
-    �p�G�z���t�λݨD�P�W�����ŦX�A�Ш̷ӤU�C�B�J�ާ@�C(2005/10/13 ��s)
-    1. �p�G�z�S�� Windows 2000 SP4�A�Цۦ�U�� w2ksp4_tw.exe �w�ˡA��ĳ�z�ĥξ�X�� Windows 2000 SP4 �w�ˡA�����K�C
-    2. �p�G�z�S�� Internet Explorer 6.0 SP1�A�ЧR�� ie6sp1 ��Ƨ��U���Ҧ������ɡA�ëO�d�Ҧ����Ÿ�Ƨ�(�t�Ū� hotfix ��Ƨ�)�C
-    3. �p�G�z�S�� Windows Media Player 9.0�A�ЧR�� wmp9 ��Ƨ��U���Ҧ������ɡA�ëO�d�Ҧ����Ÿ�Ƨ�(�t�Ū� hotfix ��Ƨ�)�C
-    4. �p�G�z�S�� DirectX 9.0c�A�ЧR���H�U�ɮסC
-    �@ \w2ksp4\hotfix1\Windows2000-KB904706-DX9-x86-CHT.exe�@
-    5. ���ץ��ɨå��]�t IE 5.0, 5.5, Windows Media Player 7.0, 8.0�� �ץ��ɡA�p�G�z�O�ݩ�W�z�������ϥΪ̡A�Цۦ�s�W Windows Updates�A�U���Ӫ������ץ��ɡC
+    如果您的系統需求與上面不符合，請依照下列步驟操作。(2005/10/13 更新)
+    1. 如果您沒有 Windows 2000 SP4，請自行下載 w2ksp4_tw.exe 安裝，建議您採用整合版 Windows 2000 SP4 安裝，比較方便。
+    2. 如果您沒有 Internet Explorer 6.0 SP1，請刪除 ie6sp1 資料夾下的所有執行檔，並保留所有的空資料夾(含空的 hotfix 資料夾)。
+    3. 如果您沒有 Windows Media Player 9.0，請刪除 wmp9 資料夾下的所有執行檔，並保留所有的空資料夾(含空的 hotfix 資料夾)。
+    4. 如果您沒有 DirectX 9.0c，請刪除以下檔案。
+    　 \w2ksp4\hotfix1\Windows2000-KB904706-DX9-x86-CHT.exe　
+    5. 本修正檔並未包含 IE 5.0, 5.5, Windows Media Player 7.0, 8.0的 修正檔，如果您是屬於上述版本的使用者，請自行連上 Windows Updates，下載該版本的修正檔。
 
-    �����ץ��ɤ��b�ͯ������d��A�����p�U�G
-    1. �w���X�s�����A�Ҧp MDAC �ثe�̷s���� 2.8SP1�A2.8SP1 �ثe�S���w���ʭץ��ɡA�]���ͯ����]�j�a���w�g�w�˦������A�p�G�z�ϥΪ��O 2.8SP1 �H�e�������A�Цۦ��s�ץ��ɡC
-    2. Windows2000 Server �n��A���ץ��ɥH Windows2000 Pro ���D�AServer �����n��]�A IIS, NNTP, SNMP ���ץ��ɬҤ������A�z�p�G�ϥ� Windows2000 Server�A���i�w�˦��ץ��ɡA���аȥ��A�W Windows Updates ��s�@���C
-    ��o�����Ѭ���Ҧ���s�ɳ��w�����A�W�z�n��h�������A���n��L�k���N Windows Updates �������Ҧ��\��C�G�L�ױz�ϥΪ����Ҭ���A�w�˦��ץ��ɫ�аȥ��A�W Windows Updates �@���A�H���w���C
+    部分修正檔不在敝站收錄範圍，說明如下：
+    1. 已推出新版本，例如 MDAC 目前最新版為 2.8SP1，2.8SP1 目前沒有安全性修正檔，因此敝站假設大家都已經安裝此版本，如果您使用的是 2.8SP1 以前的版本，請自行更新修正檔。
+    2. Windows2000 Server 軟體，本修正檔以 Windows2000 Pro 為主，Server 版的軟體包括 IIS, NNTP, SNMP 等修正檔皆不收錄，您如果使用 Windows2000 Server，仍可安裝此修正檔，但請務必再上 Windows Updates 更新一次。
+    到發布當天為止的所有更新檔都已收錄，上述軟體則不收錄，本軟體無法取代 Windows Updates 網站的所有功能。故無論您使用的環境為何，安裝此修正檔後請務必再上 Windows Updates 一次，以策安全。
 
 
-    2005/07/20 ���n�����G
-    �o�O�w�� Update Rollup 1 for Windows 2000 SP4 ���s�s�@���o�檩�A�̭��w�]�t�F Update Rollup 1 for Windows 2000 SP4�A�]�t�F SP4 �H��� 2005/06/30 ����Ҧ��ץ��ɡA���ɮ׬O�H����������¦�ӫغc���C
-    �ɮצW�٤]�w�ܧ� w2ksp5v2.exe
+    2005/07/20 重要說明：
+    這是針對 Update Rollup 1 for Windows 2000 SP4 重新製作的發行版，裡面已包含了 Update Rollup 1 for Windows 2000 SP4，包含了 SP4 以後到 2005/06/30 為止的所有修正檔，本檔案是以此版本為基礎而建構的。
+    檔案名稱也已變更為 w2ksp5v2.exe
 
-    2005/10/13 ���n�����G
-    1. �Y��_��s�ɨ̷��������O��m���P�ؿ��A�H�K�ϥΪ̥i�ۦ�R�����ݧ�s���ɮסA�R����k�p�W�B�J�ҥܡC
-    2. �t�λݨD�l�[ DirectX 9.0c�A�аȥ��w�˦��̷s�����C
+    2005/10/13 重要說明：
+    1. 即日起更新檔依照類型分別放置不同目錄，以便使用者可自行刪除不需更新的檔案，刪除方法如上步驟所示。
+    2. 系統需求追加 DirectX 9.0c，請務必安裝此最新版本。
+
